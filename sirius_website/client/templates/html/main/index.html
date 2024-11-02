@@ -1,0 +1,21 @@
+{% extends 'html/base.html' %}
+{% block title %}Home{%endblock title %}
+{% block content %}
+
+
+{% for book in books %}
+<div class="card" style="width: 18rem;">
+  {% if book.image_book %}
+   <img src="{{ book.image_book.url }}" class="card-img-top">
+    {% else %}
+{% endif %}
+  <div class="card-body">
+    <h5 class="card-title">{{ book.name_book }}</h5>
+    <p class="card-text">{{ book.description }}</p>
+    <a href="detail/{{ book.get_absolute_url }}" class="btn btn-primary">Узнать подробнее</a>
+  </div>
+</div>
+{% endfor %}
+
+
+{% endblock content %}

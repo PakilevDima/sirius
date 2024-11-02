@@ -1,0 +1,203 @@
+{% extends 'html/base.html' %}
+{% block title %}Подписки{% endblock title %}
+{% block content %}
+        <style>
+            .section{
+    padding: 40px 0px;
+}
+.package-bg-blue{
+    background-color: #03a9f4!important;
+}
+.package-bg-green{
+    background-color: #4caf50!important;
+}
+.package-bg-skyblue{
+    background-color: #00bcd4!important;
+}
+.package-bg-orange{
+    background-color: #ff9800!important;
+}
+
+.package-box{
+    border: 1px solid #c4c4c4;
+    margin: 4% 0 0;
+    text-align: center;
+}
+.package-box .package-header{
+    padding: 14px 10px;
+}
+.package-box .package-header .package-heading{
+    text-align: center;
+    margin-bottom: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.package-box .package-header .package-price{
+    text-align: center;
+    margin-bottom: 4px;
+    color: #fff;
+}
+.package-box .package-body{
+    margin: 0;
+    padding: 5% 5%;
+    text-align: left;
+}
+
+.package-box .package-body ul{
+    padding: 0px !important;
+    display: block;
+}
+.package-box .package-body ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #ccc;
+    padding: 2% 0 2% 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+    background-position: left 8px;
+    background-repeat: no-repeat;
+}
+.package-box .package-body ul li i{
+    padding: 2px 5px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #00bcd4;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.package-box .package-body ul li .li-value {
+    float: right;
+    padding: 0.15rem 0.3rem;
+    width: 65px;
+    background: 0 0;
+    color: #444;
+    font-weight: 700;
+    text-align: center;
+    font-size: 13px;
+}
+.package-box .package-btn{
+    padding: 4px 14px;
+    background-color: #fc4903;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2px 4px;
+    text-decoration: none;
+}
+        </style>
+        <div class="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-title">
+                        <h2>YOUR PRICING TABLE LIST - YOUR CHOICE</h2>
+                    </div>
+                    <p class="mt-2">Best and Cheap Website Pricing Plans</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="package-box">
+                        <div class="package-header package-bg-blue">
+                            <h4 class="package-heading">Новичок</h4>
+                            <h5 class="package-price">  ₽0.0/МЕСЯЦ </h5>
+                        </div>
+                        <div class="package-body">
+                            <ul>
+                                <li><i>&#8594;</i>Количество книг в библиотеке <span class="li-value">5</span></li>
+                                <li><i>&#8594;</i>Возможность аудио  <span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Возможность скачать книгу <span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Информирование о новинках<span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Наличие иллюстраций<span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Наличие краткого изложения<span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Поддержка от бота<span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Возможность читать эсклюзивы<span class="li-value">☓</span></li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="" class="package-btn">Оплатить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="package-box">
+                        <div class="package-header package-bg-green">
+                            <h4 class="package-heading">Читающий</h4>
+                            <h5 class="package-price">  ₽399.0/МЕСЯЦ </h5>
+                        </div>
+                        <div class="package-body">
+                            <ul>
+                                <li><i>&#8594;</i>Количество книг в библиотеке <span class="li-value">20</span></li>
+                                <li><i>&#8594;</i>Возможность аудио  <span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Возможность скачать книгу <span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Информирование о новинках<span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Наличие иллюстраций<span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Наличие краткого изложения<span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Поддержка от бота<span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Возможность читать эсклюзивы<span class="li-value">☓</span></li>
+
+
+                            </ul>
+                            <div class="text-center">
+                                <a href="" class="package-btn">Оплатить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="package-box">
+                        <div class="package-header package-bg-skyblue">
+                            <h4 class="package-heading">Библиотекарь</h4>
+                            <h5 class="package-price">  ₽799.0/МЕСЯЦ </h5>
+                        </div>
+                        <div class="package-body">
+                            <ul>
+                                <li><i>&#8594;</i>Количество книг в библиотеке <span class="li-value">50</span></li>
+                                <li><i>&#8594;</i>Возможность аудио  <span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Возможность скачать книгу <span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Информирование о новинках<span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Наличие иллюстраций<span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Наличие краткого изложения<span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Поддержка от бота<span class="li-value">☓</span></li>
+                                <li><i>&#8594;</i>Возможность читать эсклюзивы<span class="li-value">☓</span></li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="" class="package-btn">Оплатить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="package-box">
+                        <div class="package-header package-bg-orange">
+                            <h4 class="package-heading">Сверхразум</h4>
+                            <h5 class="package-price">  ₽999.9/МЕСЯЦ </h5>
+                        </div>
+                        <div class="package-body">
+                            <ul>
+                                <li><i>&#8594;</i>Количество книг в библиотеке <span class="li-value">∞</span></li>
+                                <li><i>&#8594;</i>Возможность аудио  <span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Возможность скачать книгу <span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Информирование о новинках<span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Наличие иллюстраций<span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Наличие краткого изложения<span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Поддержка от бота<span class="li-value">✓</span></li>
+                                <li><i>&#8594;</i>Возможность читать эсклюзивы<span class="li-value">✓</span></li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="" class="package-btn">Оплатить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+{% endblock content %}

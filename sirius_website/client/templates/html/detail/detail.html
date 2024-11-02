@@ -1,0 +1,16 @@
+{% extends 'html/base.html' %}
+{% block title %}{{ book.name_book }}{% endblock title %}
+{% block content %}
+
+<h1>{{ book.name_book }}</h1>
+<h4>{{ book.author_book }}</h4>
+<p>{{ book.description }}</p>
+
+{% if book.image_book %}
+   <img src="{{ book.image_book.url }}" class="d-block w-50 img-fluid">
+    {% else %}
+<h1>картинки нет</h1>
+
+{% endif %}
+<a href="buying/book/{{ book.get_absolute_url }}" class="btn btn-primary">Добавить в библиотеку</a>
+{% endblock content %}

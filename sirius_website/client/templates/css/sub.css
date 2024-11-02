@@ -1,0 +1,83 @@
+.section{
+    padding: 40px 0px;
+}
+.package-bg-blue{
+    background-color: #03a9f4!important;
+}
+.package-bg-green{
+    background-color: #4caf50!important;
+}
+.package-bg-skyblue{
+    background-color: #00bcd4!important;
+}
+.package-bg-orange{
+    background-color: #ff9800!important;
+}
+
+.package-box{
+    border: 1px solid #c4c4c4;
+    margin: 4% 0 0;
+    text-align: center;
+}
+.package-box .package-header{
+    padding: 14px 10px;
+}
+.package-box .package-header .package-heading{
+    text-align: center;
+    margin-bottom: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.package-box .package-header .package-price{
+    text-align: center;
+    margin-bottom: 4px;
+    color: #fff;
+}
+.package-box .package-body{
+    margin: 0;
+    padding: 5% 5%;
+    text-align: left;
+}
+
+.package-box .package-body ul{
+    padding: 0px !important;
+    display: block;
+}
+.package-box .package-body ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #ccc;
+    padding: 2% 0 2% 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444444;
+    background-position: left 8px;
+    background-repeat: no-repeat;
+}
+.package-box .package-body ul li i{
+    padding: 2px 5px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #00bcd4;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.package-box .package-body ul li .li-value {
+    float: right;
+    padding: 0.15rem 0.3rem;
+    width: 65px;
+    background: 0 0;
+    color: #444;
+    font-weight: 700;
+    text-align: center;
+    font-size: 13px;
+}
+.package-box .package-btn{
+    padding: 4px 14px;
+    background-color: #fc4903;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2px 4px;
+    text-decoration: none;
+}
