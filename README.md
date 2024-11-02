@@ -11,7 +11,7 @@ parser.py - парсер сайта https://ilibrary.ru/ с книгами. Дл
 
 
 
-1. Установка библиотек:
+# 1. Установка библиотек:
 pip install django - для установки django
 pip install sumy - для установки sumy
 pip install pytelegrambotapi - для установки telebot
