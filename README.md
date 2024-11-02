@@ -13,7 +13,13 @@ parser.py - парсер сайта https://ilibrary.ru/ с книгами. Дл
 
 # 1. Установка библиотек:
 pip install django - для установки django
+
 pip install sumy - для установки sumy
+
 pip install pytelegrambotapi - для установки telebot
+
 pip install requests - для установки requests
+
 Для установки llana-cpp смотреть по [ссылке](https://github.com/ggerganov/llama.cpp)
+
+Модель [llana ] (https://drive.google.com/file/d/1wq8FYFJ2Z03269Qi8z_ECJwcG0Xrnewd/view?usp=sharing)
