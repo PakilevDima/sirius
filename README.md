@@ -37,6 +37,7 @@
 
 Модель [llama](https://drive.google.com/file/d/1wq8FYFJ2Z03269Qi8z_ECJwcG0Xrnewd/view?usp=sharing)
 
+[Видео](https://rutube.ru/video/private/dcb8d79180009b4179fcf78ef0985c8e/?p=TiO2g51STGdx_l66Ec-scw) работы бота
 
 ---
 
