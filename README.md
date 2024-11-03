@@ -43,19 +43,19 @@
 #  (Эта информация о прототипе (разрабатывался на первом этапе, содержит доп. функциональность) Прототип (sirius)
 В данном проекте предоставлены сайт системы, telegram-бот и модели для суммаризации текста
 
-В директории [sirius_website](https://github.com/PakilevDima/sirius/tree/main/sirius_website) находится сайт, созданный 
+- В директории [sirius_website](https://github.com/PakilevDima/sirius/tree/main/sirius_website) находится сайт, созданный 
 при помощи django-rest-framework. Для запуска сайта необходимо скачать django, python и репозиторий с сайтом. Затем 
 необходимо перейти в директорию с **manage.py** и в коносоли прописать `python manage.py runserver`.
 
-В директории [summarization](https://github.com/PakilevDima/sirius/tree/main/summarization) находятся файлы моделей для 
+- В директории [summarization](https://github.com/PakilevDima/sirius/tree/main/summarization) находятся файлы моделей для 
 суммаризации текста, 5 из которых предоставляют суммаризацию на основе 5 разных моделей для суммаризации, а 6-я 
 предоставляет работу с большой языковой моделью 'Llama'. Пользователю на выбор даются эти модели. Модель llama работает 
 с помощью библиотеки llama_cpp, а остальные модели с помощью библиотеки sumy
 
-[bot.py](https://github.com/PakilevDima/sirius/blob/main/bot.py) - файл работы Telegram-бота, который позволяет выполнять 
+- [bot.py](https://github.com/PakilevDima/sirius/blob/main/bot.py) - файл работы Telegram-бота, который позволяет выполнять 
 суммаризацию текста моделями из директории
 [summarization](https://github.com/PakilevDima/sirius/tree/main/summarization). Для работы использует библиотеку telebot.
 
-[parser.py](https://github.com/PakilevDima/sirius/blob/main/parser.py) - 
+- [parser.py](https://github.com/PakilevDima/sirius/blob/main/parser.py) - 
 парсер [сайта](https://ilibrary.ru/) с книгами. 
 Для работы используется selenium.
